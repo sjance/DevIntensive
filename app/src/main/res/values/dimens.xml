@@ -20,6 +20,7 @@
     <dimen name="spacing_small_8">8dp</dimen>
     <dimen name="spacing_normal_16">16dp</dimen>
     <dimen name="spacing_medial_24">24dp</dimen>
+    <dimen name="spacing_mediate_28">28dp</dimen>
     <dimen name="spacing_medium_32">32dp</dimen>
     <dimen name="spacing_large_56">56dp</dimen>
     <dimen name="spacing_larger_72">72dp</dimen>
@@ -33,5 +34,6 @@
     <dimen name="lists_horizontal_toolbar">56dp</dimen>
     <dimen name="lists_horizontal_subtitle">48dp</dimen>
     <dimen name="lists_horizontal_item">72dp</dimen>
+    <dimen name="line_size_small">1dp</dimen>
 
 </resources>

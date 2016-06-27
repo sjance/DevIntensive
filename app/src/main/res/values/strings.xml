@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Третьяк Александр</string>
+    <string name="about_temp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dapibus pulvinar sollicitudin. Curabitur porta tristique arcu in interdum. Fusce volutpat pretium quam eget vestibulum. Aliquam tempus accumsan erat, ut congue lectus egestas ac. Fusce maximus, nunc sed tincidunt commodo, nisi est gravida nisi, eget ornare mauris enim eu mi. Donec eu arcu eu nisl tincidunt aliquam efficitur non ligula. Praesent vitae faucibus est, vel cursus ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer consectetur vulputate sapien, sit amet condimentum quam interdum et. Maecenas ut luctus eros. Quisque egestas, nunc et aliquet gravida, nisi sem vestibulum metus, eu molestie sapien nunc a orci. Suspendisse porttitor mauris sapien, nec elementum lectus vulputate sed. Praesent dui leo, consequat ac posuere ornare, varius vel orci. Vivamus vehicula ac lorem id placerat. Sed consectetur, massa quis pulvinar vehicula, justo dolor facilisis libero, at viverra justo mi eget lectus.</string>
+    <string name="mobile_hint">Мобильный</string>
+    <string name="mobile_temp">+7(909) 777-77-77</string>
+    <string name="about_hint">О себе</string>
+    <string name="email_hint">E-mail</string>
+    <string name="email_temp">mymail@gmail.com</string>
+    <string name="vk_hint">Профиль в VK</string>
+    <string name="vk_temp">vk.com/sjance</string>
+    <string name="git_hint">Репозиторий</string>
+    <string name="git_temp">github.com/sjance/DevIntensive</string>
+    <string name="top_bar_left_title_text">5</string>
+    <string name="top_bar_title_middle_text">25000</string>
+    <string name="top_bar_title_right_text">5</string>
+    <string name="top_bar_bottom_left_text">Рейтинг</string>
+    <string name="top_bar_bottom_middle_text">Написано строк кода</string>
+    <string name="top_bar_bottom_right_text">Проектов</string>
 </resources>
