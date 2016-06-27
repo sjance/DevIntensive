@@ -109,4 +109,8 @@
         <item name="android:textSize">@dimen/font_large_18</item>
     </style>
 
+    <style name="custom_dialog">
+        <item name="android:fullDark">@android:color/transparent</item>
+    </style>
+
 </resources>
