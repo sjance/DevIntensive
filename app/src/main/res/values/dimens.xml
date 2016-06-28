@@ -35,7 +35,10 @@
     <dimen name="lists_horizontal_toolbar">56dp</dimen>
     <dimen name="lists_horizontal_subtitle">48dp</dimen>
     <dimen name="lists_horizontal_item">72dp</dimen>
+
+    <!--Additional-->
     <dimen name="line_size_small">1dp</dimen>
     <dimen name="profile_image_size">256dp</dimen>
+    <dimen name="fab_right_space">8dp</dimen>
 
 </resources>

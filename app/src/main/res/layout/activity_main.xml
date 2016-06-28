@@ -14,6 +14,7 @@
         android:layout_height="wrap_content">
 
         <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar_layout"
             android:theme="@style/AppTheme.AppBarOverlay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,7 +111,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/ic_call_black_24dp"/>
                     <LinearLayout
-                        style="@style/middle_container">
+                        style="@style/middle_container_basic">
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -139,7 +140,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/ic_email_black_24dp"/>
                     <LinearLayout
-                        style="@style/middle_container">
+                        style="@style/middle_container_basic">
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -167,7 +168,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/vk"/>
                     <LinearLayout
-                        style="@style/middle_container">
+                        style="@style/middle_container_basic">
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -195,7 +196,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/git_icon"/>
                     <LinearLayout
-                        style="@style/middle_container">
+                        style="@style/middle_container_basic">
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -223,7 +224,7 @@
                         style="@style/icon.left"
                         android:src="@drawable/ic_account_circle_black_24dp"/>
                     <LinearLayout
-                        style="@style/middle_container">
+                        style="@style/middle_container_about">
                         <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
@@ -238,7 +239,17 @@
                 </LinearLayout>
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_create_black_24dp"
+            app:layout_anchor="@id/appbar_layout"
+            app:layout_anchorGravity="bottom|right"
+            android:layout_marginRight="@dimen/fab_right_space"/>
     </android.support.design.widget.CoordinatorLayout>
+
+
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
         android:layout_width="match_parent"

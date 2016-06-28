@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:background="@color/color_accent"
+        android:src="@drawable/small_profile_photo"
         android:layout_marginTop="@dimen/spacing_normal_16"/>
 
     <LinearLayout
