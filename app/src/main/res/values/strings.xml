@@ -16,4 +16,7 @@
     <string name="top_bar_bottom_left_text">Рейтинг</string>
     <string name="top_bar_bottom_middle_text">Написано строк кода</string>
     <string name="top_bar_bottom_right_text">Проектов</string>
+    <string name="drawer_profile">Мой профиль</string>
+    <string name="drawer_contacts">Контакты</string>
+    <string name="header_name">Имя Фамилия</string>
 </resources>
