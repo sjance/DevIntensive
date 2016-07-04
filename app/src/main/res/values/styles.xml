@@ -1,12 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_primary</item>
         <item name="colorPrimaryDark">@color/color_primary_dark</item>
         <item name="colorAccent">@color/color_accent</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="icon">
         <item name="android:layout_width">@dimen/size_small_24</item>
@@ -52,12 +61,19 @@
 
     <style name="middle_container">
         <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">@dimen/size_large_72</item>
         <item name="android:layout_weight">1</item>
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">bottom</item>
         <item name="android:layout_marginLeft">@dimen/spacing_medium_32</item>
         <item name="android:layout_marginRight">@dimen/spacing_normal_16</item>
+    </style>
+
+    <style name="middle_container_basic" parent="middle_container">
+        <item name="android:layout_height">@dimen/size_large_72</item>
+    </style>
+
+    <style name="middle_container_about" parent="middle_container">
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="top_bar">
@@ -107,6 +123,25 @@
 
     <style name="top_bar_title_text" parent="top_bar_text">
         <item name="android:textSize">@dimen/font_large_18</item>
+    </style>
+
+    <style name="custom_dialog">
+        <item name="android:fullDark">@android:color/transparent</item>
+    </style>
+
+    <style name="nav_drawer_profile_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_medium_14</item>
+    </style>
+
+    <style name="nav_drawer_profile_name" parent="nav_drawer_profile_text">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="nav_drawer_profile_mail" parent="nav_drawer_profile_text">
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 
 </resources>

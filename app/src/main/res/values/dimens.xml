@@ -14,6 +14,7 @@
     <dimen name="font_larger_22">22sp</dimen>
     <dimen name="font_large_18">18sp</dimen>
     <dimen name="font_normal_15">15sp</dimen>
+    <dimen name="font_medium_14">14sp</dimen>
     <dimen name="font_small_12">12sp</dimen>
 
     <!--Spaces-->
@@ -34,6 +35,10 @@
     <dimen name="lists_horizontal_toolbar">56dp</dimen>
     <dimen name="lists_horizontal_subtitle">48dp</dimen>
     <dimen name="lists_horizontal_item">72dp</dimen>
+
+    <!--Additional-->
     <dimen name="line_size_small">1dp</dimen>
+    <dimen name="profile_image_size">256dp</dimen>
+    <dimen name="fab_right_space">8dp</dimen>
 
 </resources>
