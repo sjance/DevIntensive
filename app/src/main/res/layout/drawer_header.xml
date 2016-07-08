@@ -8,9 +8,12 @@
                 android:paddingBottom="@dimen/spacing_small_8"
                 android:background="@drawable/header_bg">
     <ImageView
+        android:id="@+id/avatar_nav_drawer"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/small_profile_photo"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
         android:layout_marginTop="@dimen/spacing_normal_16"/>
 
     <LinearLayout
