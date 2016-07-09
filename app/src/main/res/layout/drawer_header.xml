@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="172dp"
+                xmlns:xmnls="http://schemas.android.com/tools"
                 android:paddingTop="@dimen/spacing_medial_24"
                 android:paddingRight="@dimen/spacing_normal_16"
                 android:paddingLeft="@dimen/spacing_normal_16"
                 android:paddingBottom="@dimen/spacing_small_8"
-                android:background="@drawable/header_bg">
-    <ImageView
+                android:background="@drawable/nav_header_bg">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmnls:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/avatar_nav_drawer"
         android:layout_width="60dp"
         android:layout_height="60dp"
