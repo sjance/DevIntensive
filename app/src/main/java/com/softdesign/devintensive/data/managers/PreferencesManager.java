@@ -2,6 +2,7 @@ package com.softdesign.devintensive.data.managers;
 
 
 import android.content.SharedPreferences;
+import android.net.Uri;
 
 import com.softdesign.devintensive.utils.ConstantManager;
 import com.softdesign.devintensive.utils.DevintensiveApplication;
@@ -22,6 +23,7 @@ public class PreferencesManager {
         this.mSharedPreferences = DevintensiveApplication.getSharedPreferences();
     }
 
+    // Реализация сохранения данных введенных пользователем
     public void saveUserProfileData(List<String> userFields) {
         SharedPreferences.Editor editor = mSharedPreferences.edit();
 
@@ -31,6 +33,7 @@ public class PreferencesManager {
         editor.apply();
     }
 
+    // Загрузка данных введенных пользователем
     public List<String> loadUserProfileData() {
         List<String> userFields = new ArrayList<>();
         userFields.add(mSharedPreferences.getString(ConstantManager.USER_PHONE_KEY, "null"));
@@ -39,5 +42,17 @@ public class PreferencesManager {
         userFields.add(mSharedPreferences.getString(ConstantManager.USER_GIT_KEY, "null"));
         userFields.add(mSharedPreferences.getString(ConstantManager.USER_ABOUT_KEY, "null"));
         return userFields;
+    }
+
+    // Сохранение фотографии профиля
+    public void saveUserPhoto(Uri uri) {
+        SharedPreferences.Editor editor = mSharedPreferences.edit();
+        editor.putString(ConstantManager.USER_PHOTO_KEY, uri.toString());
+        editor.apply();
+    }
+
+    // Загрузка фотографии профиля
+    public Uri loadUserPhoto() {
+        return Uri.parse(mSharedPreferences.getString(ConstantManager.USER_PHOTO_KEY, "android.resource://com.softdesign.devintensive/drawable/user_bg"));
     }
 }

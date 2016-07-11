@@ -19,4 +19,18 @@
     <string name="drawer_profile">Мой профиль</string>
     <string name="drawer_contacts">Контакты</string>
     <string name="header_name">Имя Фамилия</string>
+    <string name="user_profile.placeholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile.dialog.title">Изменить фотографию профиля</string>
+    <string name="user_profie.choose.message">Выберите фотографию</string>
+    <string name="chooser_title.send.email">Отправить почту</string>
+    <string name="auth_title_login">Войти</string>
+    <string name="auth_password_hint">Пароль</string>
+    <string name="auth_forgotten_password">Забыли пароль?</string>
+    <string name="action_allow">Разрешить</string>
+    <string name="snackbar_allow">Для корректной работы приложения необходимо дать требуемые разрешения</string>
+    <string name="snackbar_camera_allow">Разрешение на использование камеры получено</string>
+    <string name="snackbar_external_storage_allow">Разрешение на доступ к внутренней памяти получено</string>
 </resources>

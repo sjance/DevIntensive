@@ -9,6 +9,7 @@
     <dimen name="size_large_72">72dp</dimen>
     <dimen name="size_larger_96">96dp</dimen>
     <dimen name="size_largest_104">104dp</dimen>
+    <dimen name="size_huge_128">128dp</dimen>
 
     <!--Font Sizes-->
     <dimen name="font_larger_22">22sp</dimen>
@@ -40,5 +41,6 @@
     <dimen name="line_size_small">1dp</dimen>
     <dimen name="profile_image_size">256dp</dimen>
     <dimen name="fab_right_space">8dp</dimen>
+    <dimen name="placeholder_photo_size_90">90dp</dimen>
 
 </resources>
